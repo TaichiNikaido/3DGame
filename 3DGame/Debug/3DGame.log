@@ -1,13 +1,2 @@
-﻿  sound.cpp
-  scene2d.cpp
-  scene.cpp
-  renderer.cpp
-  model.cpp
-  manager.cpp
-  main.cpp
-  keyboard.cpp
-  joystick.cpp
-  input.cpp
-  コードを生成中...
-  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3Dチーム制作\3DGame\Debug\3DGame.exe
-  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3Dチーム制作\3DGame\Debug\3DGame.pdb (Full PDB)
+﻿  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
+  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.pdb (Full PDB)
