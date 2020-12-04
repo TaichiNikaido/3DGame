@@ -18,18 +18,6 @@
 #define MAX_POLYGON   (256)
 #define NUM_VERTEX	  (4)
 #define NUM_POLYGON	  (2)
-#define FVF_VERTEX_2D (D3DFVF_XYZRHW|D3DFVF_DIFFUSE|D3DFVF_TEX1)
-
-//*****************************************************************************
-// 構造体定義
-//*****************************************************************************
-typedef struct
-{
-	D3DXVECTOR3 pos; //頂点座標
-	D3DXVECTOR2	tex; //テクスチャ
-	D3DCOLOR	col; //頂点カラー
-	float		rhw; //座標変換用紙係数
-}VERTEX_2D;
 
 //*****************************************************************************
 // クラス定義

@@ -1,19 +1,20 @@
 ﻿  sound.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   scene2d.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   scene.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   renderer.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  model.cpp
   manager.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   main.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   keyboard.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   joystick.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   input.cpp
-c:\users\gsp025\desktop\3dチーム制作\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+c:\users\gsp025\desktop\3dgame\3dgame\main.h(15): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
   コードを生成中...

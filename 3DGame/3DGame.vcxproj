@@ -146,6 +146,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="billboard.cpp" />
+    <ClCompile Include="camera.cpp" />
     <ClCompile Include="input.cpp" />
     <ClCompile Include="joystick.cpp" />
     <ClCompile Include="keyboard.cpp" />
@@ -158,6 +160,8 @@
     <ClCompile Include="sound.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="billboard.h" />
+    <ClInclude Include="camera.h" />
     <ClInclude Include="input.h" />
     <ClInclude Include="joystick.h" />
     <ClInclude Include="keyboard.h" />
