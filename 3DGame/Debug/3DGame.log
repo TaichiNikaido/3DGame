@@ -1,5 +1,6 @@
 ﻿  particle_emitter.cpp
-c:\users\gsp015\desktop\制作\3dgame\3dgame\particle_emitter.cpp(88): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
-c:\users\gsp015\desktop\制作\3dgame\3dgame\particle_emitter.cpp(105): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp015\desktop\制作\3dgame\3dgame\particle_emitter.cpp(81): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp015\desktop\制作\3dgame\3dgame\particle_emitter.cpp(90): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+cl : コマンド ライン warning D9028: 簡易リビルド時のエラーです、通常のビルドに戻します
   3DGame.vcxproj -> C:\Users\gsp015\Desktop\制作\3DGame\Debug\3DGame.exe
   3DGame.vcxproj -> C:\Users\gsp015\Desktop\制作\3DGame\Debug\3DGame.pdb (Full PDB)
