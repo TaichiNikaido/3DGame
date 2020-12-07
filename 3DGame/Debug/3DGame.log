@@ -1,3 +1,4 @@
-﻿  camera.cpp
+﻿  main.cpp
+cl : コマンド ライン warning D9028: 簡易リビルド時のエラーです、通常のビルドに戻します
   3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
   3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.pdb (Full PDB)
