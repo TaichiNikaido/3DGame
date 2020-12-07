@@ -17,7 +17,9 @@
 #include "keyboard.h"
 #include "sound.h"
 #include "joystick.h"
-
+#include "camera.h"
+#include "particle_emitter.h"
+#include "particle.h"
 //*****************************************************************************
 // マクロ定義
 //*****************************************************************************
@@ -29,6 +31,7 @@ CRenderer * CManager::m_pRenderer = NULL;
 CKeyboard * CManager::m_pKeyboard = NULL;
 CJoystick * CManager::m_pJoystick = NULL;
 CSound * CManager::m_pSound = NULL;
+CCamera *CManager::m_pCamera = NULL;
 CManager::MODE CManager::m_mode = MODE_NONE;
 
 //=============================================================================
@@ -81,7 +84,11 @@ HRESULT CManager::Init(HINSTANCE hInsitance, HWND hWnd, bool bWindow)
 	}
 	//サウンドの初期化
 	m_pSound->Init(hWnd);
-
+	CParticle::Load();
+	// カメラ生成
+	CreateCamera();
+	// パーティクルエミッター生成
+	CParticle_Emitter::Create();
 	return S_OK;
 }
 
@@ -119,6 +126,14 @@ void CManager::Uninit(void)
 		m_pKeyboard = NULL;
 	}
 
+	//カメラの終了
+	if (m_pCamera != NULL)
+	{
+		m_pCamera->Uninit();
+		delete m_pCamera;
+		m_pCamera = NULL;
+	}
+
 	//レンダラーの破棄
 	if (m_pRenderer != NULL)
 	{
@@ -143,6 +158,11 @@ void CManager::Update(void)
 	if (m_pJoystick != NULL)
 	{
 		m_pJoystick->Update();
+	}
+	if (m_pCamera != NULL)
+	{
+		//カメラのの更新処理
+		m_pCamera->Update();
 	}
 
 	//描画の更新
@@ -178,4 +198,23 @@ void CManager::SetMode(MODE mode)
 	m_pKeyboard->Update();
 	//ジョイスティックの更新
 	m_pJoystick->Update();
+}
+//=============================================================================
+//
+//=============================================================================
+void CManager::CreateCamera(void)
+{
+	// m_pCameraがNULLの場合
+	if (m_pCamera == NULL)
+	{
+		// メモリ確保
+		m_pCamera = new CCamera;
+
+		// m_pCameraがNULLでない場合
+		if (m_pCamera != NULL)
+		{
+			// 初期化
+			m_pCamera->Init();
+		}
+	}
 }
