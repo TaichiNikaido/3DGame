@@ -7,6 +7,7 @@
 #ifndef _MANAGER_H_
 #define _MANAGER_H_
 
+#include "main.h"
 //*****************************************************************************
 // マクロ定義
 //*****************************************************************************
@@ -19,7 +20,8 @@ class CKeyboard;
 class CJoystick;
 class CScene2d;
 class CSound;
-
+class CCamera;
+class CMode;
 //*****************************************************************************
 // 構造体定義
 //*****************************************************************************
@@ -47,12 +49,15 @@ public:
 	static CKeyboard * GetInputKeyboard(void) { return m_pKeyboard; };
 	static CJoystick * GetInputJoystick(void) { return m_pJoystick; };
 	static CSound * GetSound(void) { return m_pSound; };
+	static void CreateCamera(void);
+	static CCamera *GetCamera(void) { return m_pCamera; }
 	CScene2d * GetScene2d(void) { return m_pScene2d; };
 private:
 	static CRenderer * m_pRenderer;
 	static CKeyboard * m_pKeyboard;
 	static CJoystick * m_pJoystick;
 	static CSound * m_pSound;
+	static CCamera *m_pCamera;
 	static MODE m_mode;
 	CScene2d * m_pScene2d;
 };

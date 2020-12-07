@@ -1,3 +1,5 @@
-﻿  camera.cpp
-  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
-  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.pdb (Full PDB)
+﻿  particle_emitter.cpp
+c:\users\gsp015\desktop\制作\3dgame\3dgame\particle_emitter.cpp(88): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp015\desktop\制作\3dgame\3dgame\particle_emitter.cpp(105): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  3DGame.vcxproj -> C:\Users\gsp015\Desktop\制作\3DGame\Debug\3DGame.exe
+  3DGame.vcxproj -> C:\Users\gsp015\Desktop\制作\3DGame\Debug\3DGame.pdb (Full PDB)
