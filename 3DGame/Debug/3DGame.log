@@ -1,11 +1,2 @@
-<<<<<<< HEAD
-﻿  main.cpp
-cl : コマンド ライン warning D9028: 簡易リビルド時のエラーです、通常のビルドに戻します
-  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
+﻿  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
   3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.pdb (Full PDB)
-=======
-﻿  particle_fire.cpp
-cl : コマンド ライン warning D9028: 簡易リビルド時のエラーです、通常のビルドに戻します
-  3DGame.vcxproj -> C:\Users\gsp015\Desktop\制作\3DGame\Debug\3DGame.exe
-  3DGame.vcxproj -> C:\Users\gsp015\Desktop\制作\3DGame\Debug\3DGame.pdb (Full PDB)
->>>>>>> 5792ccc60d71bf9a01b72074817b002409e1bb7e
