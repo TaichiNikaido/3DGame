@@ -157,6 +157,7 @@
     <ClCompile Include="particle.cpp" />
     <ClCompile Include="particle_emitter.cpp" />
     <ClCompile Include="particle_fire.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="renderer.cpp" />
     <ClCompile Include="scene.cpp" />
     <ClCompile Include="scene2d.cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="particle_emitter.h" />
     <ClInclude Include="particle_fire.h" />
     <ClInclude Include="particle.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="renderer.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="scene2d.h" />

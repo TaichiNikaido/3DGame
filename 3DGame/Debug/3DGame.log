@@ -1,2 +1,11 @@
-﻿  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
+﻿  player.cpp
+  particle_emitter.cpp
+c:\users\gsp025\desktop\3dgame\3dgame\particle_emitter.cpp(82): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\gsp025\desktop\3dgame\3dgame\particle_emitter.cpp(91): warning C4244: '引数': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+  コードを生成中...
+cl : コマンド ライン warning D9028: 簡易リビルド時のエラーです、通常のビルドに戻します
+keyboard.obj : warning LNK4020: 'c:\users\gsp025\desktop\3dgame\3dgame\debug\vc140.pdb' の型レコードは破損しています。一部のシンボルおよび型は、デバッガーからはアクセスできない可能性があります。
+joystick.obj : warning LNK4020: 'c:\users\gsp025\desktop\3dgame\3dgame\debug\vc140.pdb' の型レコードは破損しています。一部のシンボルおよび型は、デバッガーからはアクセスできない可能性があります。
+input.obj : warning LNK4020: 'c:\users\gsp025\desktop\3dgame\3dgame\debug\vc140.pdb' の型レコードは破損しています。一部のシンボルおよび型は、デバッガーからはアクセスできない可能性があります。
+  3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.exe
   3DGame.vcxproj -> C:\Users\gsp025\Desktop\3DGame\Debug\3DGame.pdb (Full PDB)
